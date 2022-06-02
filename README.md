@@ -1,8 +1,8 @@
 # How to prevent accidental deletion on OCI?
 
-Aim : Creeate a group and policy for restrict resource deletion on OCI.
+Aim : Create a group and policy for restrict resource deletion on OCI.
 
-## ** Some Example Scenario:**
+### Some Example Scenarios: 
 #### **Onboard a new guy to production OCI environment. So to avoid any resource deletion, implement the below setup to avoid any accidental resource deletion.** 
 #### **A user who is new to OCI, who wanted to learn or implement a setup on OCI. He require admin access to accomplish the requirement. Inorder to make sure the user won't terminate any resources on the existing infrastructure** 
 
