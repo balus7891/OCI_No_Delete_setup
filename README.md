@@ -1,9 +1,9 @@
 # **How to prevent accidental deletion on OCI?**
-# ** 
+
 # **Scenario:**
 # **Onboard a new guy to production OCI environment. So to avoid any resource deletion, implement the below setup.** 
 # **A user who is new to OCI or a new guy who wanted to learn or implement a setup on OCI. He require admin access to accomplish the requirement.** 
-# ** 
+
 # **No Delete group and policy setup on Oracle Cloud Infrastructure using a single line policy statement.** 
 ## **Login to the tenancy and verify the user has access OCI Administrator & IDCS Administrator(Optional) access.**
 ## **To implement the below setup for IDCS federated tenancy and the users are creating as a federated user, then the user who creating the setup should have IDCS Administrator access as well.**
@@ -29,7 +29,7 @@ Under Policy Builder toggle Show manual editor and enter the below statement (Th
 ### **ALLOW GROUP No\_Delete to manage all-resources IN TENANCY where request.permission != '\*\_DELETE'**
 The above policy is for tenancy level full access. If we need to restrict with compartment level full access with no delete operation follow the below syntax. The below one is recommended.
 ### **ALLOW GROUP No\_Delete to manage all-resources IN COMPARTMENT <Compartment\_Name> where request.permission != '\*\_DELETE'**
-### ** 
+
 ![](images/Aspose.Words.cd9cd2fd-fb38-4897-8b4f-3e4b14e9ae9c.003.jpeg)
 
 
