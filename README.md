@@ -1,4 +1,4 @@
-# **How to prevent accidental deletion on OCI?**
+# How to prevent accidental deletion on OCI?
 
 # **Scenario:**
 # **Onboard a new guy to production OCI environment. So to avoid any resource deletion, implement the below setup.** 
@@ -11,7 +11,7 @@
 
 Create a group called "No\_Delete" 
 
-Menu → Identity & Security → Groups**
+Menu → Identity & Security → Groups
 -------------------------------------
 ![](images/Aspose.Words.cd9cd2fd-fb38-4897-8b4f-3e4b14e9ae9c.001.jpeg)
 
